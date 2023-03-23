@@ -14,8 +14,10 @@ const Home = () => {
                     because we’ll give you a truly out of this world experience!</p>
             </div>
 
-            <div className="sphere-home">
-                <h4>EXPLORE</h4>
+            <div className="hover-sphere">
+                <div className="sphere-home">
+                    <h4>EXPLORE</h4>
+                </div>
             </div>
         </div>
     )
