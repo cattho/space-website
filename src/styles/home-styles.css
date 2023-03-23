@@ -1,0 +1,59 @@
+.main-container {
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-text-container {
+    width: 500px;
+    height: 382px;
+    position: absolute;
+    left: 165px;
+}
+
+.main-text-container h1 {
+    font-family: var(--heading-typography-1-4);
+    font-size: var(--heading1-size);
+    color: var(--third-color);
+    font-weight: 400;
+}
+
+.main-text-container h5 {
+    font-family: var(--heading-typography-5);
+    font-size: var(--heading5-size);
+    color: var(--second-color);
+    letter-spacing: var(--heading5-character-space);
+    font-weight: 400;
+}
+
+.main-text-container p {
+    font-family: var(--subheanding-2-nav-text);
+    font-size: var(--pharag-size);
+    color: var(--second-color);
+    letter-spacing: var(--nav-text-character-space);
+    line-height: 32px;
+}
+
+.sphere-home {
+    border: 1px solid var(--third-color);
+    border-radius: 50%;
+    background: var(--third-color);
+    position: absolute;
+    width: 274px;
+    height: 274px;
+    right: 380px;
+    top: 495px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sphere-home h4{
+    font-family: var(--heading-typography-1-4);
+    font-size: var(--heading4-size);
+    font-weight: 400;
+    letter-spacing: 2px;
+}

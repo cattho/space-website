@@ -21,8 +21,9 @@
     --subheading1-size: 28px;
     --subheading2-size: 14px;
     --nav-text-size: 16px;
+    --pharag-size: 18px;
 
-    --heading5-character-space: 4.75;
-    --subheading2-character-space: 2.35;
-    --nav-text-character-space: 2.7;
+    --heading5-character-space: 4.75px;
+    --subheading2-character-space: 2.35px;
+    --nav-text-character-space: 2.7px;
 }
