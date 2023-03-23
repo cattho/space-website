@@ -4,7 +4,6 @@ import '../styles/home-styles.css';
 const Home = () => {
     return (
         <div className='main-container'>
-            {/* <NavBar /> */}
 
             <div className='main-text-container'>
                 <h5> So, you want to travel to</h5>
