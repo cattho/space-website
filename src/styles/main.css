@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+
+:root {
+    --main-color: #0B0D17;
+    --second-color: #D0D6F9;
+    --third-color: #FFFFFF;
+
+    /* Typography */
+    --heading-typography-1-4: 'Bellefair', serif;
+    --heading-typography-5: 'Barlow Condensed', sans-serif;
+
+    --subheanding-1: 'Bellefair', serif;
+    --subheanding-2-nav-text: 'Barlow Condensed', sans-serif;
+
+
+    --heading1-size: 150px;
+    --heading2-size: 100px;
+    --heading3-size: 56px;
+    --heading4-size: 32px;
+    --heading5-size: 28px;
+    --subheading1-size: 28px;
+    --subheading2-size: 14px;
+    --nav-text-size: 16px;
+
+    --heading5-character-space: 4.75;
+    --subheading2-character-space: 2.35;
+    --nav-text-character-space: 2.7;
+}
