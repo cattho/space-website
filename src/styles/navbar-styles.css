@@ -47,8 +47,8 @@
     letter-spacing: var(--nav-text-character-space);
 }
 
-.nav-container nav .nav-item:hover{
-    color: red;
+.nav-container nav .nav-item:hover,
+.nav-container nav .nav-item:focus{
     text-decoration: underline;
 }
 

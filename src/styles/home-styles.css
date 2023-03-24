@@ -68,13 +68,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: all .5s ease-in;
 }
 
-.hover-sphere h4:hover{
+.hover-sphere h4:hover,
+.hover-sphere h4:focus{
     display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
-    transition: all 1.5s ease;
     border-radius: 50%;
 }
