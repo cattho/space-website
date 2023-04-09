@@ -1,5 +1,3 @@
-import NavBar from './NavBar';
-import '../styles/home-styles.css';
 
 const Home = () => {
     return (

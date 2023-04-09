@@ -1,0 +1,75 @@
+.destination-container {
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content {
+    width: 50%;
+    margin-left: 10rem;
+}
+
+.image-content h5 {
+    color: var(--third-color);
+    font-family: var(--heading-typography-5);
+    font-size: var(--heading5-size);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.image-content img {
+    margin-left: 3rem;
+}
+
+.image-content h5 span {
+    opacity: .25;
+    margin: 0 1rem;
+}
+
+.description-destination{
+    width: calc(25%);
+    margin-right: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secnd-navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 27px;
+    padding: 0;
+    margin: 0 1rem;
+}
+
+.secnd-navbar ul li{
+    font-family: var(--subheanding-2-nav-text);
+    font-size: var(--nav-text-size);
+    color: var(--second-color);
+    list-style: none;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
+    cursor: pointer;
+}
+
+.description-destination h2 {
+    font-family: var(--heading-typography-1-4);
+    font-size: var(--heading2-size);
+    color: var(--third-color);
+    font-weight: 400;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+.description-destination p{
+    font-size: var(--pharag-size);
+    font-family: var(--subheanding-2-nav-text);
+    color: var(--second-color);
+    font-style: normal;
+}
