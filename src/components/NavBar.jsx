@@ -9,8 +9,8 @@ const NavBar = () => {
             <nav className='bg-gray-400 bg-opacity-20 h-full w-1/2 flex items-center gap-4 backdrop-filter justify-start pl-20 pr-8 absolute right-0 z-50 backdrop-blur-lg  uppercase'>
                 <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' to="/"><b>00</b> Home</Link>
                 <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' to="/destination"><b>01</b> Destination</Link>
-                <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' href="#"><b>02</b> Crew</Link>
-                <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' href="#"><b>03</b> Technology</Link>
+                <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' to="/crew"><b>02</b> Crew</Link>
+                <Link className='font-barlowCondensed text-[16px] text-third-color tracking-wider hover:underline active:underline' to="#"><b>03</b> Technology</Link>
             </nav>
         </div>
     )

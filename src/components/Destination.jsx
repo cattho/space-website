@@ -9,8 +9,8 @@ const Destination = () => {
         <img src={europe} alt="image" />
       </div>
 
-      <div className="description-destination">
-        <nav className='secnd-navbar'>
+      <div className="description-destination w-[500px] mb-9 flex flex-col h-[472px]">
+        <nav>
           <ul className='flex gap-2 uppercase'>
             <li className='font-barlowCondensed text-[16px] text-second-color tracking-wider hover:underline hover:text-third-color active:underline'>Moon</li>
             <li className='font-barlowCondensed text-[16px] text-second-color tracking-wider hover:underline hover:text-third-color active:underline'>Mars</li>
@@ -21,18 +21,18 @@ const Destination = () => {
 
         <h2 className='text-third-color text-[100px] font-bellefair uppercase'>Titan</h2>
 
-        <p> The smallest of the four Galilean moons orbiting Jupiter, Europa is a
-          winter lover’s dream. With an icy surface, it’s perfect for a bit of
-          ice skating, curling, hockey, or simple relaxation in your snug
-          wintery cabin.
-        </p>
+        <p className='text-second-color text-[18px]'> The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.</p>
 
-        <div className="stats">
-          Avg. distance
-          628 mil. km
+        <div className="mt-12 border-t-[1px] border-[#383B4B] flex gap-48 uppercase">
+          <span className='flex flex-col'>
+            <p className='text-[14px] text-second-color mt-2'> Avg. distance</p>
+            <p className='text-[28px] text-third-color'>628 mil. km</p>
+          </span>
 
-          Est. travel time
-          3 years
+          <span className='flex flex-col'>
+            <p className='text-[14px] text-second-color mt-2'>Est. travel time</p>
+            <p className='text-[28px] text-third-color'> 3 years</p>
+          </span>
         </div>
       </div>
     </div>
