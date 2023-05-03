@@ -1,19 +1,18 @@
 
 const Home = () => {
     return (
-        <div className='main-container'>
-
-            <div className='main-text-container'>
-                <h5> So, you want to travel to</h5>
-                <h1> SPACE</h1>
-                <p> Let’s face it; if you want to go to space, you might as well genuinely go to
+        <div className="bg-[url('src/assets/home/background-home-desktop.jpg')] flex items-center justify-around h-screen w-screen bg-cover bg-no-repeat bg-center select-none">
+            <div className="w-[450px] h-[382] text-white flex items-right justify-center flex-col">
+                <h5 className="text-second-color tracking-[4.75px] text-[28px] font-barlowCondensed"> So, you want to travel to</h5>
+                <h1 className="text-third-color text-[150px] font-bellefair w-full"> SPACE</h1>
+                <p className="text-second-color text-[18px] leading-[32px] font-barlowCondensed"> Let’s face it; if you want to go to space, you might as well genuinely go to
                     outer space and not hover kind of on the edge of it. Well sit back, and relax
                     because we’ll give you a truly out of this world experience!</p>
             </div>
 
-            <div className="hover-sphere">
-                <div className="sphere-home">
-                    <h4>EXPLORE</h4>
+            <div className="w-[274px] h-[274px] flex items-center justify-center bg-white rounded-full ">
+                <div className="font-bellefair text-[32px] tracking-[2px]">
+                    <h4 className="w-[400px] h-[400px] rounded-full flex items-center justify-center transition-all duration-[1500ms] hover:bg-shadow-sphere">EXPLORE</h4>
                 </div>
             </div>
         </div>
@@ -21,3 +20,5 @@ const Home = () => {
 }
 
 export default Home
+
+// transition-all duration-500

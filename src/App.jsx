@@ -5,7 +5,7 @@ import RouterApp from './routes/RouterApp'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <RouterApp />
     </div>
   )
